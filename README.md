@@ -12,7 +12,8 @@ sudo apt install openjdk-17-jdk -y
 cd GradleDemo
 
 4. gradle init :
-5. Answer the prompts:
+  
+6. Answer the prompts:
 
 Type of project → 2: application
 
@@ -23,6 +24,8 @@ Language → 1: Java
 Project name → GradleDemo or any name
 
 6. Edit build.gradle -nano build.gradle
+
+
 
 7. plugins {
     id 'java'
@@ -57,6 +60,13 @@ tasks.build {
     }
 }
 Save and exit (Ctrl+O, Enter, then Ctrl+X).
+
+
+
+
+
+
+
 8.
 mkdir -p src/main/java
 nano src/main/java/Hello.java
@@ -65,8 +75,16 @@ public class Hello {
         System.out.println("Hello from Java with Gradle!");
     }
 }
+
+
+
 9.. Run Custom Task -./gradlew helloWorld
+
+
+
 10. Run the Build - ./gradlew build
+
+
 11. eun the java app - ./gradle run
 
 
